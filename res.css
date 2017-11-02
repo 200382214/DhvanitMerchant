@@ -1,35 +1,46 @@
 @charset "UTF-8";
 *{
     margin:0;
-    padding:0;
-    border:0;
+    padding:10px;
+   border:0;
     outline:0;
     color:white;
 }
 body {
-	font-family: Papyrus, fantasy;
+	font-family: "Lucida", cursive;
 	background-size:cover;
 	background-image:url(Pictures/p2.jpeg);
 }
 header{
 	width:100%;
-	height:500px;
-	font-family: "Brush Script MT", cursive;
+	height:250px;
+	font-family: "Papyrus", fantasy;
 	background-size:cover;
 	background-position:center;
+
+}
+.e1{
+	font-size: 70px;
 }
 .f-s{
 	float:right;
 	width: 34%;
+
 	
 }
 .s1{
 	float:right;
 	width: 34%;
 	line-height:40px;
+	
+	padding:10px;
+
+
 }
-.mr{
-	color:white;
+.s2{
+	
+	padding:10px;
+
 }
 
 h1
@@ -53,6 +64,7 @@ h3
 p{
 	font-size:30px;
 	line-height: 40px;
+	
 }
 
 ul {
@@ -60,7 +72,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-image:url(Pictures/skills.jpeg); 
+    background-size:cover;
     font-size: 24px;
 }
 
