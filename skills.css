@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    color:white;
+}
+h2{
+	color: black;
+}
+body {
+	font-family: Papyrus, fantasy;
+	background-size:cover;
+	background-image:url(Pictures/skills.jpeg);
+}
+header{
+	
+	font-family: "Snell Roundhand", cursive;
+	text-align: center;
+}
+p{
+	font-size:40px;
+	line-height: 40px;
+	color: black;
+	font-family:"Trattatello", fantasy;
+}
+.link{
+	color:white;
+}
