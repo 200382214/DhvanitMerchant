@@ -7,58 +7,53 @@
     color:white;
 }
 body {
-	font-family: "Lucida", cursive;
+	background-image:url(back.jpeg);
 	background-size:cover;
-	background-image:url(Pictures/p2.jpeg);
+	background-color: black;
+	
 }
-header{
-	width:100%;
-	height:250px;
-	font-family: "Papyrus", fantasy;
-	background-size:cover;
-	background-position:center;
 
-}
 .e1{
 	font-size: 70px;
+	text-align: center;
+}
+#e2{
+	font-size: 40px;
+	text-align: center;
+
 }
 .f-s{
 	float:right;
-	width: 34%;
+	width: 30%;
+	height: 20%;
+	margin-top: 14cm;
 
 	
 }
-.s1{
-	float:right;
-	width: 34%;
-	line-height:40px;
-	
-	padding:10px;
 
-
-}
 .s2{
-	
-	padding:10px;
+	line-height: 40px;
+	padding:0px;
+
 
 }
-
 h1
 {
-	color:black;
+	color:white;
 	text-align:center;
-	font-size:100px;
-	line-height:300px;
-	background-image:url(Pictures/p1.jpeg);
+	font-size: 80px;
+	line-height:500px;
+	background-image:url(main.jpeg);
 	background-size:cover;
 	background-position:center;
 }
-h3
+h2
 {
-	color:black;
-	text-align:center;
+	color:white;
+	line-height: 22px;
 	font-size: 45px;
-	font-family: "Times New Roman", San-serif;
+	
+	
 
 }
 p{
@@ -68,12 +63,8 @@ p{
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-image:url(Pictures/skills.jpeg); 
-    background-size:cover;
+    list-style-type:none;
+margin-top:-1cm;   
     font-size: 24px;
 }
 
@@ -85,13 +76,21 @@ li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 14px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 34px;
 }
 
 li a:hover {
     background-color: black;
 }
+.s3{
+	
+	background-size:cover;
+	background-position:center;
+	padding-inline-start: 20px;
+	
+}
+
 
 
